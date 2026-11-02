@@ -1,0 +1,14 @@
+1. What is UART?
+Ans- UART (Universal Asynchronous Receiver Transmitter) is a serial communication protocol used to transmit and receive data byte by byte.
+
+2.  Why use circular buffer for UART?
+Ans- It optimizes space and allows continuous data flow without memory shifting.
+
+3. What happens when buffer is full?
+Ans- New data is lost or should be managed until space is available.
+
+4. Is UART synchronous or asynchronous?
+Ans- UART is asynchronous communication.
+
+5. What is baud rate?
+Ans- The speed of data transfer, measured in bits per second (bps).
